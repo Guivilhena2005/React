@@ -7,7 +7,7 @@ import LoginForm from './components/LoginForm/LoginForm.jsx';
 import ShoppingList from './components/ShoppingList/ShoppingList.jsx';
 import  AppRoutes  from './Routes.jsx';
 import Header from './components/Header/Header.jsx';
-
+import Footer from './components/Footer/Footer.jsx';
 
 function App() {
   let content;
@@ -31,6 +31,7 @@ function App() {
         <AboutPage />
         <Profile />
         <ShoppingList />
+        <Footer />
       </header>
     </div>
   );
