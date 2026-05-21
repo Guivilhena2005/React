@@ -4,17 +4,30 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #333;
-  color: white;
+  background: linear-gradient(90deg,#071027 0%, #0f1730 100%);
+  color: #e6eef8;
+  box-shadow: 0 4px 18px rgba(2,6,23,0.5);
+}
+
+.logo {
+  font-weight: 700;
+  color: #7b61ff;
+  letter-spacing: 0.4px;
 }
 
 .nav-links {
   display: flex;
   list-style: none;
-  gap: 20px;
+  gap: 18px;
 }
 
 .nav-links a {
-  color: white;
+  color: rgba(230,238,248,0.9);
   text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.nav-links a:hover {
+  background: rgba(123,97,255,0.08);
 }
